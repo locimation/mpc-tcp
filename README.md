@@ -2,6 +2,8 @@
 
 This SIMPL# program allows MPC button panels (MPC3-302, MPC3-201, etc) to be used as peripherals of a 3rd-party control system by hosting a TCP API.
 
+CPZ files can be downloaded from [https://github.com/locimation/mpc-tcp/releases](https://github.com/locimation/mpc-tcp/releases).
+
 ## TCP API
 
 The TCP server listens on port 9023.
