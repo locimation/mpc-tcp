@@ -1,0 +1,19 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeployDeviceID>4D92823B-0B87-41DA-82B4-06719FD23595</DeployDeviceID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <StartAction>Project</StartAction>
+    <StartProgram>
+    </StartProgram>
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <StartAction>Program</StartAction>
+    <StartProgram>\Simpl\App01\SimplSharpPro.exe</StartProgram>
+    <StartArguments>01 Crestron TCP Buttons</StartArguments>
+  </PropertyGroup>
+</Project>
